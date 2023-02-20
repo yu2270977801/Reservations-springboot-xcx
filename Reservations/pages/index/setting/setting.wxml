@@ -1,0 +1,69 @@
+<!--pages/index/setting/setting.wxml-->
+<view class="info">
+ 
+ <view class="info_more1"><view class="tx1">头像</view>
+
+ <view><image src="{{tx}}" class="tx"/></view>
+
+ </view>
+
+<view class="hr"></view>
+
+
+
+<view class="info_more">昵称
+
+ <view class="icon">{{name}}</view>
+
+ </view>
+
+<view class="hr"></view>
+
+
+
+<view class="info_more" >手机号
+
+ <view class="icon">198****0861</view>
+
+ </view>
+
+<view class="hr"></view>
+
+<view class="info_more">注册时间
+
+ <view class="icon"><picker class="picker" mode="date" value="{{date}}"end="{{endDate}}" bindchange="bindDateChange">
+
+ <view class="picker-date ">
+
+   {{currentDate}}
+
+ </view>
+
+</picker></view>
+
+ </view>
+
+<view class="hr"></view>
+
+
+
+<view class="info_more" bindtap="version">当前系统版本
+
+ <view class="icon">v1.0</view>
+
+ </view>
+
+<view class="hr"></view>
+
+
+<view class="info_more" bindtap="houtai">后台登录入口
+
+ <view class="icon">>></view>
+
+ </view>
+
+<view class="hr"></view>
+
+</view>
+
+<button bindtap="logout">退出登录</button>

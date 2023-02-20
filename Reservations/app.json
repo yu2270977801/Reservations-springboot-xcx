@@ -3,16 +3,21 @@
     "pages/index/index",
     "pages/signup/signup",
     "pages/action/action",
+    "pages/me/me",
+    "pages/index/want/want",
+    "pages/index/setting/setting",
+    "pages/index/like/like",
     "pages/about/about",
     "pages/teacher/teacher",
     "pages/teacherlist/teacherlist",
     "pages/actionlist/actionlist",
+    "pages/information/information",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#4ec4c8",
-    "navigationBarTitleText": "教育一号模板",
+    "navigationBarTitleText": "挂号预约系统",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
@@ -29,15 +34,15 @@
       },
       {
         "pagePath": "pages/signup/signup",
-        "text": "我要报名",
-        "iconPath": "image/bm.png",
-        "selectedIconPath": "image/bmactive.png"
+        "text": "预约",
+        "iconPath": "image/reservations.png",
+        "selectedIconPath": "image/reservationsactive.png"
       },
       {
-        "pagePath": "pages/action/action",
-        "text": "活动",
-        "iconPath": "image/action.png",
-        "selectedIconPath": "image/actionactive.png"
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "image/me.png",
+        "selectedIconPath": "image/meactive.png"
       }
     ]
   },

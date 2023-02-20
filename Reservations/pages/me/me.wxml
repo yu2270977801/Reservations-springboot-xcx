@@ -1,0 +1,38 @@
+<!--pages/me/me.wxml-->
+<!-- 用户信息：头像，呢称 /登录 -->
+ 
+<view class="xx">
+ 
+ <view><image src="{{avatarUrl}}" class="tx"></image></view>
+
+ <view class="mz" >{{name}}</view>
+
+ <view bindtap="getUserProfile" class="underline">登录</view>  
+
+</view>   
+
+<!-- 分割线 -->
+
+<view class="hr"></view>
+
+<!-- 循环数组 mySet  -->
+
+<view wx:for="{{mySet}}" bindtap="onMySet" data-type="{{item.name}}"> 
+
+<!-- 图标和循环myset中的文字  -->
+
+<view class="vv_1">
+
+ <image class="image1" src="{{item.img}}"/>
+
+   {{item.name}}
+
+ <view class="icon">></view> 
+
+</view>  
+
+</view>
+
+<!-- 分割线 --> 
+
+<view class="hr2"></view>

@@ -9,48 +9,45 @@
 </swiper>
 
 <view class="plate">
-  <navigator url="/pages/action/action" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
+ <navigator url="pages/information/information" open-type="navigator-hover" hover-class="other-navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="{{a1src}}"></image>
+       <image src="{{zixunsrc}}"></image>
        </view>
        <text class="plate-info">
-        活动资讯
+        生活资讯
        </text>
   </navigator>
   <navigator url="/pages/signup/signup" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="{{a2src}}"></image>
+       <image src="{{yuyuesrc}}"></image>
        </view>
        <text class="plate-info">
-        预约课程
+        预约医生
        </text>
   </navigator>
   <navigator url="/pages/teacher/teacher" hover-class="navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="{{a4src}}"></image>
+       <image src="{{mingyilistsrc}}"></image>
        </view>
        <text class="plate-info">
-        名师简介
+        名医简介
        </text>
   </navigator>
   <navigator url="/pages/about/about" hover-class="navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="{{a3src}}"></image>
+       <image src="{{jianjiesrc}}"></image>
        </view>
        <text class="plate-info">
-        联系我们
+        医院简介
        </text>
   </navigator>
 </view>
 <view class="clear"></view>
 <view class="appointment">
- <view class="app-title">课程预约</view>
+ <view class="app-title">名医列表</view>
   <view class="app-moduler">
 
     <navigator url="url" class="mod-item">
-      <view class="mod-signup">
-        <image src="{{signupimg}}"></image>
-      </view>
       <view class="mod-img">
         <image src="{{imgsrc}}" class="mod-image"></image>
       </view>
@@ -66,9 +63,66 @@
     </navigator>
     
     <navigator url="url" class="mod-item">
-      <view class="mod-signup">
-        <image src="{{signupimg}}"></image>
+      <view class="mod-img">
+        <image src="{{imgsrc}}" class="mod-image"></image>
       </view>
+      <view class="mod-title">
+         <text>标题标题标题标题标题</text>  
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon">
+          <image src="{{iconsrc}}" class="icon"></image>
+        </view>
+        <view class="moinfont">17人已申请</view>
+      </view>
+    </navigator>
+
+    <navigator url="url" class="mod-item">
+      <view class="mod-img">
+        <image src="{{imgsrc}}" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>标题标题标题标题标题</text>  
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon">
+          <image src="{{iconsrc}}" class="icon"></image>
+        </view>
+        <view class="moinfont">17人已申请</view>
+      </view>
+    </navigator>
+
+    <navigator url="url" class="mod-item">
+      <view class="mod-img">
+        <image src="{{imgsrc}}" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>标题标题标题标题标题</text>  
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon">
+          <image src="{{iconsrc}}" class="icon"></image>
+        </view>
+        <view class="moinfont">17人已申请</view>
+      </view>
+    </navigator>
+
+    <navigator url="url" class="mod-item">
+      <view class="mod-img">
+        <image src="{{imgsrc}}" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>标题标题标题标题标题</text>  
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon">
+          <image src="{{iconsrc}}" class="icon"></image>
+        </view>
+        <view class="moinfont">17人已申请</view>
+      </view>
+    </navigator>
+
+    <navigator url="url" class="mod-item">
       <view class="mod-img">
         <image src="{{imgsrc}}" class="mod-image"></image>
       </view>
@@ -85,8 +139,3 @@
 
   </view>
 </view>
-<navigator class="more" url="/pages/signup/signup" open-type="switchTab" hover-class="other-navigator-hover">
-  <view class="more-info">查看更多</view>
-  <view class="icon-jt"><image src="{{jtsrc}}" class="iconjtimg"></image></view>
-</navigator>
-<view class="clear"></view>
